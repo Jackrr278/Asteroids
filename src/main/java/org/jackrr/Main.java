@@ -17,7 +17,7 @@ public class Main {
 
         //Timer init
         Timer gameTimer = new Timer(16, e -> {
-            gamePanel.moveRight();
+            gamePanel.rotate();
         });
         gameTimer.start();
 
